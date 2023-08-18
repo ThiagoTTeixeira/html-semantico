@@ -44,4 +44,4 @@ Frutas | Doces
 :-------:|:-----:
 Banana | Chocolates
 Melão | Esticadinho
-
+Pera | Croasão de chocolate
