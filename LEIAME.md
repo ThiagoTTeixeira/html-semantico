@@ -31,7 +31,6 @@ Teste do *Italico*
 > (João Marcos)
 
 Método  `console.log()` no javascript<br>
-ttt
 
 ```js
 document.querySelector("html");
