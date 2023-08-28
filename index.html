@@ -1,17 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-
-    
+    <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <style> 
+        body {
+            color:rgb(0, 0, 0);
+        }
+    </style> -->
 </head>
 <body>
-    <header>
-        <h1>HTML Semântico</h1>
-        <h2>Dando significado às estruturas</h2>
-        <p>Aprendendo a marcar o conteudo da página</p>
+    <header id="topo-pagina">    
+        <nav>
+            <!-- Lista não odernada -->
+            <ul>
+                <!-- Item da lista -->
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#sobre-nos">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#contatos">Contatos</a>
+                </li>
+            </ul>
+        </nav>
     </header>
+    <article>
+        <header>
+            <h1>Lorem, ipsum.</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptas perferendis obcaecati quam unde cumque? Consectetur officia quibusdam vitae voluptatem.</p>
+        </header>
+    </article>
+    
+    <article>
+        <header>
+            <h1>Lorem, ipsum.</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, reprehenderit!
+            </p>
+        </header>
+    </article>
+    
+    <section id="sobre-nos">
+        <a href="#topo-pagina">Voltar ao topo da página</a>
+        <h2>Sobre nós</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ut voluptatibus, id obcaecati, maiores debitis eaque libero quo repudiandae saepe esse impedit delectus mollitia hic!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor pariatur dignissimos unde, quidem quam vero nam impedit voluptatem quasi. Suscipit, pariatur deserunt. Possimus quo esse exercitationem dicta nisi laboriosam aspernatur! Magni doloribus nostrum sint quae.</p>
+    </section>
+
+    <section id="contatos">
+        <h2>Contate-nos</h2>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Ford &lt;Enter&gt;</p> <!--Colocando angle brackets em texto-->
+        <a href="#topo-pagina">Voltar ao topo da página</a>
+    </section>
+   
+    <footer>
+        <!---Poribido!-->
+        <!-- <header></header> -->
+            <br>Link para o <a href="https://github.com/ThiagoTTeixeira"> meu Github</a>
+    </footer>
+
 </body>
 </html>

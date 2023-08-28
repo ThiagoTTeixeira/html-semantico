@@ -1,0 +1,6 @@
+html {
+    scroll-behavior: smooth; /*comporatamento-da-rolagem: suave*/
+}
+body {
+    color: crimson;
+}
