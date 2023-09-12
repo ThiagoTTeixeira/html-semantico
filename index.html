@@ -4,7 +4,9 @@
     <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
     <link rel="stylesheet" href="./style.css">
+    
     <!-- <style> 
         body {
             color:rgb(0, 0, 0);
@@ -33,17 +35,17 @@
     <div class="fab">
         <a href="#topo-pagina" class="botao flutuante"><i class="voltar-topo">↑</i></a> 
     </div>
-    <article>
+    <section>
         <header>
-            <h2>O que são <span style="color: purple;">Tags </span>Semânticas?</h2>
+            <h2 class="titulo-de-pagina">O que são Tags Semânticas?</h2>
             <p>As tags semânticas do HTML são elementos que conferem significado ao conteúdo, permitindo uma melhor compreensão tanto para os desenvolvedores quanto para os mecanismos de busca.</p>
             <p>Elas ajudam a estruturar o conteúdo de forma mais clara e organizada, contribuindo para a acessibilidade e usabilidade do site.</p>
         </header>
-    </article>
+    </section>
 
-    <section id="fig-det">   
-        <h1>Tag <span style="color: purple;">figure, details</span></h1>
-        Usarei a tag <span style="color: purple;">figure</span> neste exemplo:
+    <section id="fig-det" >   
+        <h1 class="titulo-de-secao">Tag figure, details</h1>
+        Usarei a tag figure neste exemplo:
         <div class="container">
             <figure>
                 <img src="https://avatars.githubusercontent.com/u/90808478?v=4" alt="Foto do programador" height="150" width="150">
@@ -51,34 +53,37 @@
             </figure>
         
             <details>
-                <summary>Tag <span style="color: purple;">Figure</span></summary>
-                <p>Usei a tag <span style="color: purple;">figcaption</span> para fazer uma descrição da imagem.</p>
-                <p>Em geral a tag Figure serve para deixar uma div especifica no site para imagens, e facilitar a vida dos leitores de tela automaticos</p>
+                <summary class="subtitulo-de-artigo">Tag Figure</summary>
+                <p class="paragrafo-de-artigo">Usei a tag figcaption para fazer uma descrição da imagem.</p>
+                <p class="paragrafo-de-artigo">Em geral a tag Figure serve para deixar uma div especifica no site para imagens, e facilitar a vida dos leitores de tela automaticos</p>
             </details>   
         </div>
     </section>
         <section class="container">
             <article>
-                ai q n sei oq la, pipipopo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, sit!
+                <h2 class="subtitulo-de-artigo">Lorem, ipsum dolor.</h2>
+                <p class="paragrafo-de-artigo">ai q n sei oq la, pipipopo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, sit!</p>
             </article>
             <article>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores ex facere aliquid fugiat ad iusto laudantium earum cum distinctio.
+                <h2 class="subtitulo-de-artigo">Lorem ipsum dolor sit.</h2>
+                <p class="paragrafo-de-artigo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores ex facere aliquid fugiat ad iusto laudantium earum cum distinctio.</p>
             </article>
         </section>
 
     <br><section class="container">
         <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque autem commodi id reiciendis, nesciunt magnam! Nulla laboriosam qui voluptates at modi vero, nisi, nobis perspiciatis nesciunt laborum quisquam autem! Sequi perspiciatis asperiores provident molestiae illo, placeat esse, alias dolorem error dolorum accusantium reprehenderit doloremque nam neque, possimus qui tenetur aperiam!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsam vero rerum nulla laborum provident quae quisquam adipisci commodi repellendus rem modi dicta, numquam tempora ipsum quia minima sit blanditiis non nemo obcaecati mollitia nostrum aspernatur eveniet. Quos, facere iste atque est dicta corporis voluptatibus neque, cupiditate, nulla architecto expedita!</p>
+            <h2 class="subtitulo-de-artigo">Lorem ipsum dolor sit amet.</h2>
+            <p class="paragrafo-de-artigo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque autem commodi id reiciendis, nesciunt magnam! Nulla laboriosam qui voluptates at modi vero, nisi, nobis perspiciatis nesciunt laborum quisquam autem! Sequi perspiciatis asperiores provident molestiae illo, placeat esse, alias dolorem error dolorum accusantium reprehenderit doloremque nam neque, possimus qui tenetur aperiam!</p>
+            <p class="paragrafo-de-artigo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsam vero rerum nulla laborum provident quae quisquam adipisci commodi repellendus rem modi dicta, numquam tempora ipsum quia minima sit blanditiis non nemo obcaecati mollitia nostrum aspernatur eveniet. Quos, facere iste atque est dicta corporis voluptatibus neque, cupiditate, nulla architecto expedita!</p>
         </article>
     </section>
     
-    <footer id="contatos">
-        <h1><span style="color: purple;">Blockquote, footer</span></h1>
-        <blockquote>
+    <footer id="contatos" >
+        <h1 class="titulo-de-secao">Blockquote, footer</h1>
+        <blockquote class="subtitulo-de-artigo">
             Links
             <div>
-                <a href="https://github.com/ThiagoTTeixeira"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /></a>
+                <a href="https://github.com/ThiagoTTeixeira"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="40" /></a>
                 <a href="https://br.linkedin.com/in/thiagotteixeira"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
             </div>
         </blockquote>
