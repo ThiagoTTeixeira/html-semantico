@@ -1,27 +1,115 @@
-/* body {
+html {
+    scroll-behavior: smooth; /*comporatamento-da-rolagem: suave*/
 }
 
-h1 {
-    color:firebrick;
-    line-height: 2;
-    font-weight: bold;
-} */
- body{
-    color: crimson;
- }
+ .fab{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+  }
+ 
+  .botao {  
+    margin-bottom: -10%;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    border-radius: 30px;
+    display: inline-block;     
+    background-color:#0987D2;  
+    text-decoration: none;  
+    color: #ffffff; 
+} 
 
- .titulo-da-pagina {
-    color: saddlebrown;
-    line-height: 2;
-    font-weight: bold;
-    font-size: 22pt;
+     
+.flutuante {  
+  display: inline-block;  
+  -webkit-transition-duration: 0.4s;  
+  transition-duration: 0.4s;  
+  -webkit-transition-property: -webkit-transform;  
+  transition-property: transform;  
+  -webkit-transform: translateZ(0);  
+  -ms-transform: translateZ(0);  
+  transform: translateZ(0);  
+  box-shadow: 0px 4px 2px 0px rgba(98, 98, 98, 0.69);
+}  
+      
+.flutuante:hover {  
+    width: 55px;
+    height: 55px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.69);
+} 
 
- }
+.voltar-topo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -10%;
+}
 
- .titulo-da-pagina {
-    color: crimson;
-    line-height: 2;
+body{
+   /* margin-top: 20px;
+   margin-right: 50px;
+   margin-bottom: 20px;
+   margin-left: 50px; */
+    margin: 20px 50px /*20px 50px*/; /*cima direita baixo esquerda*/
+   text-align: justify;
+   background-color: #ffffff;
+}
+
+.container{
+   display: flex;
+   align-items: center;
+}
+
+.titulo-de-pagina{
+   color: #526D82;
+   line-height: 2;
+   font-weight: bold;
+   font-size: 22pt;
+}
+
+.titulo-de-artigo{
+   color: #526D82;
+   line-height: 1,5;
+   font-weight: bold;
+   font-size: 14pt;
+}
+
+.titulo-de-secao {
+   color: #526D82;
+   line-height: 1.8;
+   font-weight: bold;
+   font-size: 18pt;
+}
+
+.subtitulo-de-artigo{
+    color: #526D82;
+    line-height: 1.5;
     font-weight: bold;
-    font-size: 22pt;
-    
- }
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic ;
+    margin-bottom: 10px;
+}
+
+p{
+   color: #27374D;
+   line-height: 1.2;
+}
+
+.paragrafo-de-artigo{
+   background-color: #DDE6ED;
+   padding: 10px 10px 0 10px;
+   margin-right: 20px;
+}
+
+article{
+   border: 4px double #9DB2BF;
+   padding: 20px;
+   margin: 20px 0;
+   border-radius: 12px 0px;
+   
+}
