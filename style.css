@@ -114,12 +114,29 @@ p{
    background-color: var(--corQuartenaria);
    padding: 10px 10px 0 10px;
    margin-right: 20px;
+   border: ;
+}
+
+.container > article > p + p{
+   padding: 0px 10px 10px 10px;
 }
 
 article{
-   border: 4px double var(--corQuartenaria);
+   border: 4px solid var(--corQuartenaria);
    padding: 20px;
    margin: 20px 0;
    border-radius: 12px 0px;
    
+}
+
+.menu-principal ul {
+   background-color: var(--corPrimaria);
+}
+
+.menu-principal li{
+   color: var(--corQuartenaria);
+}
+
+.menu-principal a {
+   color: var(--corQuartenaria);
 }
