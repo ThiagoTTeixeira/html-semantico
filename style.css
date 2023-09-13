@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth; /*comporatamento-da-rolagem: suave*/
-}
-
  .fab{
     position: fixed;
     bottom:10px;
@@ -49,14 +45,28 @@ html {
     margin-bottom: -10%;
 }
 
+:root {
+   --corPrimaria: #884A39;
+   --corSecundaria: #C38154;
+   --corTerciaria: #FFC26F;
+   --corQuartenaria: #f3c37a;
+   --corFundo: #fbfdff;
+}
+
+html {
+   scroll-behavior: smooth; /*comporatamento-da-rolagem: suave*/
+}
+
 body{
    /* margin-top: 20px;
    margin-right: 50px;
    margin-bottom: 20px;
    margin-left: 50px; */
-    margin: 20px 50px /*20px 50px*/; /*cima direita baixo esquerda*/
+   margin: 20px 50px /*20px 50px*/; /*cima direita baixo esquerda*/
    text-align: justify;
-   background-color: #ffffff;
+   background-color: var(--corFundo);
+   /* background-image: url(images/eu.jpg);*/
+   
 }
 
 .container{
@@ -65,28 +75,28 @@ body{
 }
 
 .titulo-de-pagina{
-   color: #526D82;
+   color: var(--corPrimaria);
    line-height: 2;
    font-weight: bold;
    font-size: 22pt;
 }
 
 .titulo-de-artigo{
-   color: #526D82;
+   color: var(--corPrimaria);
    line-height: 1,5;
    font-weight: bold;
    font-size: 14pt;
 }
 
 .titulo-de-secao {
-   color: #526D82;
+   color: var(--corPrimaria);
    line-height: 1.8;
    font-weight: bold;
    font-size: 18pt;
 }
 
 .subtitulo-de-artigo{
-    color: #526D82;
+    color: var(--corQuartenaria);
     line-height: 1.5;
     font-weight: bold;
     font-size: 14pt;
@@ -96,18 +106,18 @@ body{
 }
 
 p{
-   color: #27374D;
+   color: var(--corPrimaria);
    line-height: 1.2;
 }
 
 .paragrafo-de-artigo{
-   background-color: #DDE6ED;
+   background-color: var(--corQuartenaria);
    padding: 10px 10px 0 10px;
    margin-right: 20px;
 }
 
 article{
-   border: 4px double #9DB2BF;
+   border: 4px double var(--corQuartenaria);
    padding: 20px;
    margin: 20px 0;
    border-radius: 12px 0px;
