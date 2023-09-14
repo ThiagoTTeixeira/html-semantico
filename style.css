@@ -14,7 +14,7 @@
     font-size: 30px;
     border-radius: 30px;
     display: inline-block;     
-    background-color:#0987D2;  
+    background-color:var(--corPrimaria);  
     text-decoration: none;  
     color: #ffffff; 
 } 
@@ -58,15 +58,9 @@ html {
 }
 
 body{
-   /* margin-top: 20px;
-   margin-right: 50px;
-   margin-bottom: 20px;
-   margin-left: 50px; */
    margin: 20px 50px /*20px 50px*/; /*cima direita baixo esquerda*/
    text-align: justify;
-   background-color: var(--corFundo);
-   /* background-image: url(images/eu.jpg);*/
-   
+   background-color: var(--corFundo);   
 }
 
 .container{
@@ -113,8 +107,22 @@ p{
 .paragrafo-de-artigo{
    background-color: var(--corQuartenaria);
    padding: 10px 10px 0 10px;
-   margin-right: 20px;
-   border: ;
+}
+
+summary:hover{
+   color: purple;
+}
+
+.paragrafo-de-artigo:first-of-type{
+   border-radius: 20px 0 0 0;
+}
+
+.paragrafo-de-artigo:last-of-type{
+   border-radius: 0 0 20px 0;
+}
+
+.paragrafo-de-artigo:only-of-type{
+   border-radius: 20px 0 20px 0;
 }
 
 .container > article > p + p{
@@ -131,10 +139,17 @@ article{
 
 .menu-principal ul {
    background-color: var(--corPrimaria);
+   text-align: center;
 }
 
 .menu-principal li{
    color: var(--corQuartenaria);
+   display: inline;
+   padding: 5px;
+}
+
+.menu-principal a:hover{
+   color: white;
 }
 
 .menu-principal a {
