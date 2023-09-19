@@ -65,7 +65,6 @@ body{
 
 .container{
    display: flex;
-   align-items: center;
 }
 
 .titulo-de-pagina{
@@ -134,18 +133,28 @@ article{
    padding: 20px;
    margin: 20px 0;
    border-radius: 12px 0px;
-   
+   width: 20%;
+}
+
+section#artigos{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .menu-principal ul {
    background-color: var(--corPrimaria);
-   text-align: center;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+   align-items: centergit;
+   
 }
 
 .menu-principal li{
    color: var(--corQuartenaria);
-   display: inline;
-   padding: 5px;
+   line-height: 40px;
 }
 
 .menu-principal a:hover{
